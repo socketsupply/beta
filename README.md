@@ -1,21 +1,16 @@
-# Operator Tool
+# Operator Tools
 
-This repository is for discussion & issues around the https://optool.co/ products.
+This repository is for discussion & issues around the https://socketsupply.co products.
 
 ## Join us on discord
 
-If you have any questions, feel free to [check out discord.](https://discord.gg/FB5PETYmuC)
+If you have any questions, feel free to [check out discord.](https://discord.com/invite/YPV32gKCsH)
 
 ### Can I share the logs for the operator application ?
 
-Yes, it would be very helpful if you took the local logfile for
-the operator apps and [pasted it](https://gist.github.com/) to share
-in the github issue.
+For each app, you can hit the menu item and open `Help` => `Show internal diagnostics`
 
-You can find our log files on disk for
+You can then copy the whole log file with `Ctrl+A` and `Ctrl+C` 
 
- - MacOS : `~/Library/Application Support/$APP_NAME/optoolco/logs.nldj`
- - Windows : `%appdata%\$APP_NAME\optoolco\logs.nldj`
- - Linux : `~/.config/$APP_NAME/optoolco/logs.nldj`
-
-The `$APP_NAME` is one of ( `Operator`, `Buckets`, `Data` , `Functions` )
+If you can [paste this](https://gist.github.com/) and share it
+in the github issue, that will help us a lot.
